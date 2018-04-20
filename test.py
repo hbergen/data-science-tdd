@@ -1,10 +1,11 @@
-# test_make_data.py
-# Run data validation tests
+# test.py
+# Run tests
 
 import unittest
 import example
 
 class TestData(unittest.TestCase):
+    '''Validate data'''
     def setUp(self):
         """Get some fake data
         """

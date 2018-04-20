@@ -1,4 +1,4 @@
-# make_data.py
+# example.py
 # Get some example data
 from datetime import datetime
 import random
