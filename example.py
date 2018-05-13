@@ -27,3 +27,10 @@ def fakerecord():
 
 def fakedataset():
     return pd.DataFrame([fakerecord() for _ in range(10)])
+
+def fake_delivery_status_model(x):
+    score_dict = {'created': 1, 'delivered': 2, 'returned': -1}
+    if x in score_dict:
+        return score_dict[x]
+    else:
+        return 0
