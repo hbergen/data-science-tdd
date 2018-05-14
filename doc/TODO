@@ -2,5 +2,4 @@
 - Write several example projects of varying complexity to illustrate how tests can be implemented.
 - Add an example which uses pytest + parameterized
 - Look into nose
-- Ensure all types of tests are covered:
-- Add definitions
+- Ensure all types of tests are covered
